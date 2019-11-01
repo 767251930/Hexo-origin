@@ -255,7 +255,7 @@ theme_config:
   # Enable / Disable menu icons / item badges.
   menu_settings:
     icons: true
-    badges: false
+    badges: true
 
 
   # ---------------------------------------------------------------
