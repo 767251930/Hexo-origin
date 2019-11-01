@@ -302,8 +302,10 @@ theme_config:
   # Key is the link label showing to end users.
   # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
   social:
-    #GitHub: https://github.com/yourname || github
-    #E-Mail: mailto:yourname@gmail.com || envelope
+    GitHub: https://github.com/yourname || github
+    E-Mail: https://767251930@gmail.com || envelope
+    QQ: https://qm.qq.com/cgi-bin/qm/qr?k=jDwzdv_w40f5WcYHCqro8nQeZLEKLpHM || qq
+    Cloudmusic: https://music.163.com/#/user/home?id=476440931 || headphones
     #Weibo: https://weibo.com/yourname || weibo
     #Google: https://plus.google.com/yourname || google
     #Twitter: https://twitter.com/yourname || twitter
