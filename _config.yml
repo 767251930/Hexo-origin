@@ -509,11 +509,11 @@ theme_config:
 
   # Reading progress bar
   reading_progress:
-    enable: false
+    enable: true
     # Available values: top | bottom
     position: top
-    color: "#37c6c0"
-    height: 3px
+    color: "#007ab2"
+    height: 2px
 
   # Bookmark Support
   bookmark:
