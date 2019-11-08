@@ -405,7 +405,7 @@ theme_config:
     # If true, reward would be displayed in every article by default.
     # You can show or hide reward in a specific article throuth `reward: true | false` in Front-matter.
     enable: true
-    animation: true
+    animation: false
     comment: 读后有收获可以支付宝请作者喝咖啡：
 
   reward:
@@ -754,14 +754,14 @@ theme_config:
   # You can get your appid and appkey from https://leancloud.cn
   # For more information: https://valine.js.org, https://github.com/xCss/Valine
   valine:
-    enable: false # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version
-    appid: # Your leancloud application appid
-    appkey: # Your leancloud application appkey
+    enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version
+    appid: pwRjwNXlijr9xyWqzA6d1uMf-gzGzoHsz # Your leancloud application appid
+    appkey: UhfYz1shiJNOzNfgXiphOYyD # Your leancloud application appkey
     notify: false # Mail notifier. See: https://github.com/xCss/Valine/wiki
     verify: false # Verification code
-    placeholder: Just go go # Comment box placeholder
-    avatar: mm # Gravatar style
-    guest_info: nick,mail,link # Custom comment header
+    placeholder: ヾﾉ≧∀≦)o来啊, 快活啊! # Comment box placeholder
+    avatar: retro # Gravatar style
+    guest_info: nick,mail # Custom comment header
     pageSize: 10 # Pagination size
     language: # Language, available values: en, zh-cn
     visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
