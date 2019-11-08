@@ -872,7 +872,7 @@ theme_config:
   # Show number of visitors to each article.
   # You can visit https://leancloud.cn to get AppID and AppKey.
   leancloud_visitors:
-    enable: false
+    enable: true
     app_id: pwRjwNXlijr9xyWqzA6d1uMf-gzGzoHsz
     app_key: UhfYz1shiJNOzNfgXiphOYyD
     # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
