@@ -65,18 +65,19 @@ tag_map:
 
 #搜索框
 search:
-  path: search.xml
-  field: post
-  content: true
-  format: html
+path: search.xml
+field: post
+content: true
+format: html
 
 #主题添加字数统计
-  symbols_count_time:
-  symbols: true
-  time: true
-  total_symbols: true
-  total_time: true
-  exclude_codeblock: false
+symbols_count_time:
+symbols: true
+time: true
+total_symbols: true
+total_time: true
+exclude_codeblock: false
+
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
@@ -114,8 +115,6 @@ deploy:
   repo:
     github: git@github.com:767251930/767251930.github.io.git,master
     coding: git@git.dev.tencent.com:Hxear/Hxear.git,master
-
-
 
 
 
@@ -407,7 +406,7 @@ theme_config:
     # You can show or hide reward in a specific article throuth `reward: true | false` in Front-matter.
     enable: true
     animation: true
-    #comment: Donate comment here.
+    comment: 读后有收获可以支付宝请作者喝咖啡：
 
   reward:
     wechatpay: /images/wechatpay.png
@@ -841,12 +840,16 @@ theme_config:
   # You can visit https://leancloud.cn to get AppID and AppKey.
   leancloud_visitors:
     enable: false
-    app_id: # <app_id>
-    app_key: # <app_key>
+    app_id: pwRjwNXlijr9xyWqzA6d1uMf-gzGzoHsz
+    app_key: UhfYz1shiJNOzNfgXiphOYyD
     # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
     # If you don't care about security in leancloud counter and just want to use it directly
     # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
-    security: true
+    security: false
+    # 由于Leancloud免费版的云引擎存在请求线程数和运行时间限制以及休眠机制，
+    # 很多时候访客数量加载会很慢。
+    # 如果设置betterPerformance为true，
+    # 则网页则会在提交请求之前直接显示访客人数为查询到的人数+1，以增加用户体验。
     betterPerformance: false
 
   # Another tool to show number of visitors to each article.
