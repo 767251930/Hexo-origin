@@ -5,7 +5,7 @@
 # Site
 title: HXear
 subtitle: WEB前端设计与开发作业
-description: 姓名：胡雄鹏                        学号：20175528                  班级：应物17-2班
+description: 姓名：胡雄鹏<br>学号：20175528<br>班级：应物17-2班
 keywords:
 author: 胡雄鹏
 language: zh-CN
@@ -405,13 +405,13 @@ theme_config:
   reward_settings:
     # If true, reward would be displayed in every article by default.
     # You can show or hide reward in a specific article throuth `reward: true | false` in Front-matter.
-    enable: false
-    animation: false
+    enable: true
+    animation: true
     #comment: Donate comment here.
 
   reward:
-    #wechatpay: /images/wechatpay.png
-    #alipay: /images/alipay.png
+    wechatpay: /images/wechatpay.png
+    alipay: /images/alipay.png
     #bitcoin: /images/bitcoin.png
 
   # Related popular posts
