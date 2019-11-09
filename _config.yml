@@ -329,7 +329,7 @@ theme_config:
     # Manual define the sidebar width. If commented, will be default for:
     # Muse | Mist: 320
     # Pisces | Gemini: 240
-    #width: 300
+    width: 300
 
     # Sidebar Display (only for Muse | Mist), available values:
     #  - post    expand on posts automatically. Default.
@@ -978,6 +978,11 @@ theme_config:
     enable: false
     key: # Public Key, get it from dashboard. See: https://www.tidiochat.com/panel/settings/developer
 
+  # DaoVoice在线联系功能
+  # Online contact 
+  daovoice: false
+  daovoice_app_id: 06433db7
+
 
   # ---------------------------------------------------------------
   # Tags Settings
@@ -1244,10 +1249,6 @@ theme_config:
     # canvas_ribbon: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-ribbon@1/canvas-ribbon.js
     canvas_ribbon:
 
-  # DaoVoice在线联系功能
-  # Online contact 
-  daovoice: false
-  daovoice_app_id: 06433db7
 
   # Assets
   css: css
