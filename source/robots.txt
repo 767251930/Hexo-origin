@@ -11,5 +11,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: https://你自己的域名temap.xml
-Sitemap: https://你自己的域名/baidusitemap.xml
+Sitemap: https://hxear.top/sitemap.xml
+Sitemap: https://hxear.top/baidusitemap.xml

@@ -9,3 +9,5 @@ reward: true | false         #奖赏
 comments: true | false       #评论
 
 ---
+
+<!-- more -->  
