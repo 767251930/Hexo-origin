@@ -111,12 +111,6 @@ nofollow:
   exclude:
     - 友链地址1
     - 友链地址2
-
-# DaoVoice在线联系功能Online contact 
-daovoice: true
-daovoice_app_id: 06433db7
-
-
 # feed——RSS
 # Dependencies: https://github.com/hexojs/hexo-generator-feed
 feed:
@@ -218,6 +212,9 @@ theme_config:
   # Site Information Settings
   # See: https://theme-next.org/docs/getting-started/
   # ---------------------------------------------------------------
+
+
+
 
   favicon:
     small: /images/panda-16x16.png
@@ -1246,6 +1243,11 @@ theme_config:
     # Example:
     # canvas_ribbon: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-ribbon@1/canvas-ribbon.js
     canvas_ribbon:
+
+  # DaoVoice在线联系功能
+  # Online contact 
+  daovoice: false
+  daovoice_app_id: 06433db7
 
   # Assets
   css: css
