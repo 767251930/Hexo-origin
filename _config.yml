@@ -13,9 +13,9 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://hxear.top
 root: /
-permalink: :year/:month/:day/:title/
+permalink: title.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing index.html from permalinks
@@ -98,6 +98,22 @@ live2d:
   react:
     opacity: 0.7
 
+# 开启SEO
+sitemap: 
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+# nofollow 标签是由谷歌领头创新的一个 “反垃圾链接” 的标签
+# 并被百度、yahoo 等各大搜索引擎广泛支持
+# 引用 nofollow 标签的目的是：用于指示搜索引擎不要追踪（即抓取）网页上的带有 nofollow 属性的任何出站链接以减少垃圾链接的分散网站权重。
+nofollow:
+  enable: true
+  exclude:
+    - 友链地址1
+    - 友链地址2
+
+
+
 # feed——RSS
 # Dependencies: https://github.com/hexojs/hexo-generator-feed
 feed:
@@ -148,6 +164,7 @@ deploy:
   repo:
     github: git@github.com:767251930/767251930.github.io.git,master
     coding: git@git.dev.tencent.com:Hxear/Hxear.git,master
+
 
 
 
@@ -629,7 +646,7 @@ theme_config:
   canonical: true
 
   # Change headers hierarchy on site-subtitle (will be main site description) and on all post / page titles for better SEO-optimization.
-  seo: false
+  seo: true
 
   # If true, will add site-subtitle to index page.
   # Remember to set up your site-subtitle in Hexo `_config.yml` (e.g. subtitle: Subtitle)
@@ -640,7 +657,7 @@ theme_config:
 
   # Google Webmaster tools verification.
   # See: https://www.google.com/webmasters
-  google_site_verification:
+  google_site_verification: true
 
   # Bing Webmaster tools verification.
   # See: https://www.bing.com/webmaster
@@ -652,10 +669,10 @@ theme_config:
 
   # Baidu Webmaster tools verification.
   # See: https://ziyuan.baidu.com/site
-  baidu_site_verification:
+  baidu_site_verification: true
 
   # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
-  baidu_push: false
+  baidu_push: true
 
 
   # ---------------------------------------------------------------
